@@ -1,0 +1,58 @@
+//Styling for form section
+
+.header__form {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  -webkit-flex-flow: column wrap;
+  margin-top: 3em;
+}
+
+.header__form__input {
+  background-color: $white;
+  color: $dark-grey;
+  font-size: 1em;
+  padding: 1em;
+  margin: 0.5em;
+  border: 2px solid $light-grey;
+  border-radius: 0.3em;
+}
+
+.header__form__button {
+  background-color: $dark-blue;
+  color: $white;
+  font-size: 1em;
+  padding: 1em;
+  margin: 0.5em;
+  border: 2px solid $light-blue;
+  border-radius: 0.3em;
+}
+
+.header__image {
+  display: flex;
+}
+
+.header__image img{
+  margin: 0em auto;
+  width: 90%;
+}
+
+@media all and (min-width: 600px) {
+
+  .header__form {
+    flex-flow: row wrap;
+  }
+
+  .header__form__input {
+    width: 20em;
+  }
+
+  .header__form__button {
+    width: 10em;
+  }
+
+  .header__image img{
+    margin: 3em auto;
+  }
+
+}

@@ -1,0 +1,26 @@
+//Styling for form section
+
+.features__container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.features__item {
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.features__item img {
+  padding: 2em;
+  text-align: center;
+}
+
+@media all and (min-width: 600px) {
+  .features__container {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+
+}

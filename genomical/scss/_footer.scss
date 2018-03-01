@@ -1,0 +1,32 @@
+//Styling for footer section
+
+.footer__logo {
+  display: flex;
+}
+
+.footer__logo img {
+  margin: auto;
+}
+
+.footer__links {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.footer__links a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: $grey;
+}
+
+@media all and (min-width: 600px) {
+  .footer__links {
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+}
